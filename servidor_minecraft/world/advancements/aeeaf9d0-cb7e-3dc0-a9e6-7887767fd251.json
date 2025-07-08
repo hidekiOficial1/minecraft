@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-07-07 03:07:24 +0000",
+      "minecraft:taiga": "2025-07-08 05:42:55 +0000",
       "minecraft:frozen_river": "2025-07-07 04:58:55 +0000",
       "minecraft:cherry_grove": "2025-07-07 03:19:52 +0000",
       "minecraft:sunflower_plains": "2025-07-07 03:54:19 +0000",
@@ -1656,6 +1657,24 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2025-07-07 05:24:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-07-08 05:49:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-07-08 05:49:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-07-08 05:49:48 +0000"
     },
     "done": true
   },
