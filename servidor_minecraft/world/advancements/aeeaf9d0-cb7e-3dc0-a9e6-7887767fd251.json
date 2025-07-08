@@ -246,6 +246,7 @@
       "chicken": "2025-07-07 03:47:18 +0000",
       "cooked_beef": "2025-07-07 03:26:24 +0000",
       "beef": "2025-07-07 03:58:36 +0000",
+      "baked_potato": "2025-07-08 06:52:42 +0000",
       "porkchop": "2025-07-07 04:07:56 +0000",
       "potato": "2025-07-07 05:10:45 +0000",
       "mutton": "2025-07-07 03:17:06 +0000",
@@ -1868,9 +1869,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_the_recipe": "2025-07-08 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-07-08 06:59:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-07-08 06:59:39 +0000"
     },
     "done": true
   },
@@ -1889,6 +1908,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-07-08 06:55:25 +0000"
     },
     "done": true
   },
