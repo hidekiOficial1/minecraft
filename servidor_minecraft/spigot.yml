@@ -49,12 +49,12 @@ commands:
   - summon
   - testforblock
   - tellraw
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
   log: true
   tab-complete: 0
   send-namespaced: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
