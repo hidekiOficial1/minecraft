@@ -249,6 +249,7 @@
       "potato": "2025-07-07 05:10:45 +0000",
       "mutton": "2025-07-07 03:17:06 +0000",
       "golden_apple": "2025-07-07 04:53:01 +0000",
+      "bread": "2025-07-08 05:55:13 +0000",
       "carrot": "2025-07-07 05:33:20 +0000"
     },
     "done": false
@@ -264,7 +265,8 @@
       "minecraft:skeleton": "2025-07-07 03:18:30 +0000",
       "minecraft:spider": "2025-07-07 03:35:39 +0000",
       "minecraft:zombie": "2025-07-07 03:46:12 +0000",
-      "minecraft:drowned": "2025-07-07 04:50:25 +0000"
+      "minecraft:drowned": "2025-07-07 04:50:25 +0000",
+      "minecraft:zombie_villager": "2025-07-08 06:00:00 +0000"
     },
     "done": false
   },
@@ -1660,9 +1662,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-07-08 05:55:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2025-07-08 05:49:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
     },
     "done": true
   },
@@ -1672,9 +1698,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-07-08 05:55:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2025-07-08 05:49:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-07-08 06:00:51 +0000"
     },
     "done": true
   },
