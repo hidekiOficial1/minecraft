@@ -23,6 +23,7 @@
       "minecraft:grove": "2025-07-07 03:22:04 +0000",
       "minecraft:cold_ocean": "2025-07-07 04:04:57 +0000",
       "minecraft:forest": "2025-07-07 03:14:54 +0000",
+      "minecraft:lush_caves": "2025-07-08 06:40:33 +0000",
       "minecraft:deep_cold_ocean": "2025-07-07 04:57:19 +0000",
       "minecraft:frozen_ocean": "2025-07-07 04:57:28 +0000",
       "minecraft:deep_frozen_ocean": "2025-07-07 05:00:38 +0000",
@@ -1864,6 +1865,60 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2025-07-08 06:11:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-07-08 06:37:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-07-08 06:45:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-07-08 06:35:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-07-08 06:35:49 +0000"
     },
     "done": true
   },
