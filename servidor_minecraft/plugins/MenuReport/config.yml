@@ -1,0 +1,286 @@
+#MenuReport by @iFedeFC
+#Version 8.8.1
+
+#Email - GMAIL: contactoifedefc@gmail.com | #Twitter @iFedeFC
+
+#Only command: /report (player) and permission is: mreport.use
+#For staff receive reports, permission is: Receive.reports
+
+GUI:
+  #SLOTS: 9 - 18 - 27 - 36 - 45
+  slots: 27
+  name: '&8PlayerReport'
+#Slots: [0][1][2][3][4][5][6][7][8]
+BUG:
+  enable: true
+  item: 145
+  name: '&cUse Bugs'
+  lore:
+   - ''
+   - '&7Report this player'
+   - '&7for use bugs'
+   - ''
+   - '&e¡Click to Report!'
+  slot: 5
+HACK:
+  enable: true
+  item: 276
+  name: '&cUse Hacks'
+  lore:
+   - ''
+   - '&7Report this player'
+   - '&7for use hacks'
+   - ''
+   - '&e¡Click to Report!'
+  slot: 3
+BAD-WORDS:
+  enable: true
+  item: 339
+  name: '&cSay BadWords'
+  lore:
+   - ''
+   - '&7Report this player'
+   - '&7for say badwords'
+   - ''
+   - '&e¡Click to Report!'
+  slot: 7
+SPAM:
+  enable: true
+  item: 386
+  name: '&cDo Spam'
+  lore:
+   - ''
+   - '&7Report this player'
+   - '&7for do spam'
+   - ''
+   - '&e¡Click to Report!'
+  slot: 1
+TEAM:
+  enable: true
+  item: 314
+  name: '&cReport for do Team'
+  lore:
+   - ''
+   - '&7Report this player'
+   - '&7for do team in Meetup'
+   - ''
+   - '&e¡Click to Report!'
+  slot: 19
+CAMPER:
+  enable: true
+  item: 261
+  name: '&cCamping'
+  lore:
+   - ''
+   - '&7Report this player'
+   - '&7for camping'
+   - ''
+   - '&e¡Click to Report!'
+  slot: 25
+BACK:
+  enable: true
+  item: 262
+  name: '&c<- Back'
+  lore:
+   - ''
+   - '&7Close this Menu'
+   - ''
+  slot: 22
+#Types of Hacks
+#This is the "hacks" GUI
+TYPES-HACKS:
+  GUI:
+    name: '&8Types of Hacks'
+    #SLOTS: 9 - 18 - 27 - 36 - 45
+    slots: 27
+  KillAura:
+    name: '&cKillAura'
+    lore: '&7Report for use KillAura'
+    item: 276
+    slot: 1
+  Fly:
+    name: '&cFly'
+    lore: '&7Report for use Fly'
+    item: 288
+    slot: 2
+  FastBow:
+    name: '&cFastBow'
+    lore: '&7Report for use FastBow'
+    item: 261
+    slot: 3
+  xRay:
+    name: '&cxRay'
+    lore: '&7Report for use xRay'
+    item: 56
+    slot: 4
+  AntiKB:
+    name: '&cAntiKnockBack'
+    lore: '&7Report for use Anti-KB'
+    item: 30
+    slot: 5
+  Aimbot:
+    name: '&cAimbot'
+    lore: '&7Report for use Aimbot'
+    item: 346
+    slot: 6
+  FallDamage:
+    name: '&cFallDamage OFF'
+    lore: '&7Report for use Anti FallDamage'
+    item: 313
+    slot: 7
+  Speed:
+    name: '&cSpeed'
+    lore: '&7Report for use Speed'
+    item: 373
+    slot: 13
+  God:
+    name: '&cGod'
+    lore: '&7Walk on Water'
+    item: 326
+    slot: 12
+  ChestFinder:
+    name: '&cChestFinder'
+    lore: '&7Report for use ChestFinder'
+    item: 54
+    slot: 14
+  AutoArmor:
+    name: '&cAutoArmor'
+    lore: '&7Report for use AutoArmor'
+    item: 315
+    slot: 15
+  Criticals:
+    name: '&cCriticals'
+    lore: '&7Report for use Criticals'
+    item: 399
+    slot: 11
+  FastEat:
+    name: '&cFastEat'
+    lore: '&7Report for FastEat'
+    item: 364
+    slot: 16
+  Spider:
+    name: '&cSpider'
+    lore: '&7Report for use Spider'
+    item: 375
+    slot: 10
+  AutoBlock:
+    name: '&cAutoBlock'
+    lore: '&7Report for use AutoBlock'
+    item: 267
+    slot: 9
+  InvMove:
+    name: '&cInvMove'
+    lore: '&7Move with inventory open'
+    item: 116
+    slot: 17
+  AutoClick:
+    name: '&cAutoClick'
+    lore: '&7Report for use AutoClick'
+    item: 256
+    slot: 22
+  TriggerBot:
+    name: '&cTriggerBot'
+    lore: '&7Report for use TriggerBot'
+    item: 259
+    slot: 21
+  PlayerAPI:
+    name: '&cPlayerAPI'
+    lore: '&7Report for use PlayerAPI'
+    item: 262
+    slot: 23
+#Messages for Staf's
+Messages:
+  BUG:
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+   - ''
+   - '&e&l    NEW REPORT'
+   - ''
+   - '&c&lWho reports:'
+   - '&7%1%'
+   - '&c&lReported:'
+   - '&7%2%'
+   - ''
+   - '&6&lReason:'
+   - '&7Take advantage of Bugs'
+   - ''
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+  HACK:
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+   - ''
+   - '&e&l    NEW REPORT'
+   - ''
+   - '&c&lWho reports:'
+   - '&7%1%'
+   - '&c&lReported:'
+   - '&7%2%'
+   - ''
+   - '&6&lReason:'
+   - '&7%3%'
+   - ''
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+  SPAM:
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+   - ''
+   - '&e&l    NEW REPORT'
+   - ''
+   - '&c&lWho reports:'
+   - '&7%1%'
+   - '&c&lReported:'
+   - '&7%2%'
+   - ''
+   - '&6&lReason:'
+   - '&7Do Spam'
+   - ''
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+  BAD-WORDS:
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+   - ''
+   - '&e&l    NEW REPORT'
+   - ''
+   - '&c&lWho reports:'
+   - '&7%1%'
+   - '&c&lReported:'
+   - '&7%2%'
+   - ''
+   - '&6&lReason:'
+   - '&7Inappropriate Vocabulary'
+   - ''
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+  TEAM:
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+   - ''
+   - '&e&l    NEW REPORT'
+   - ''
+   - '&c&lWho reports:'
+   - '&7%1%'
+   - '&c&lReported:'
+   - '&7%2%'
+   - ''
+   - '&6&lReason:'
+   - '&7Do Team in ex: SkyWars'
+   - ''
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+  CAMPER:
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+   - ''
+   - '&e&l    NEW REPORT'
+   - ''
+   - '&c&lWho reports:'
+   - '&7%1%'
+   - '&c&lReported:'
+   - '&7%2%'
+   - ''
+   - '&6&lReason:'
+   - '&7Camping in ex: 1vs1'
+   - ''
+   - '&a&l=-=-=-=-=-=-=-=-=-=-=-='
+#Messages
+Report: '&eMenuReport &6&l> &aYou open the menu, you report: &b%player%'
+Reporting: '&eMenuReport &6&l> &a&lReporting... wait'
+Report-recive: '&eMenuReport &6&l> &e&lTHANKS! &e%player% has been reported'
+Use-GetReports: '&eMenuReport &6&l> &cIncorrect, use: /getreports <player> or /reports <player>'
+GetReports-Error: '&eMenuReport &6&l> &7It may be that this player has never been reported or is not online.'
+Use: '&eMenuReport &6&l> &cIncorrect, use: /report (player)'
+NoPerm: '&eMenuReport &6&l> &cYou dont have permission'
+Not-Online: '&eMenuReport &6&l> &cPlayer %player% not are online'
+Close-inventory: '&eMenuReport &6&l> &cYou close the inventory'

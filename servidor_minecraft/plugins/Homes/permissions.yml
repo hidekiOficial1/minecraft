@@ -1,0 +1,6 @@
+homes:
+  create: homes.create
+  use: homes.use
+  teleport: homes.teleport
+  navigate: homes.navigate
+  admin: homes.admin

@@ -1,0 +1,3 @@
+
+
+[09-07-2025 19:43:57] Running in an invalid environment: 'Geyser-Spigot'. This can be bypassed in the config if you are feeling adventurous (unsafeMode).

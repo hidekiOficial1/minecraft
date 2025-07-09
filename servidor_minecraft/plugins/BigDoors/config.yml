@@ -1,0 +1,214 @@
+# Config file for BigDoors. Don't forget to make a backup before making changes!
+
+# Allow doors to be opened using redstone signals.
+allowRedstone: true
+
+# Choose the type of the power block that is used to open doors using redstone.
+# A list can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# This is the block that will open the door attached to it when it receives a redstone signal.
+powerBlockTypes: 
+  - GOLD_BLOCK
+
+
+# List of blacklisted materials. Materials on this list can not be animated.
+# Use the same list of materials as for the power blocks. For example, you would blacklist bedrock like so:
+#   - BEDROCK
+# If you don't want to blacklist any materials, use "  - NONE" instead.
+materialBlacklist: 
+  - BEDROCK
+  - END_PORTAL
+  - END_PORTAL_FRAME
+  - NETHER_PORTAL
+
+
+# List of whitelisted materials. Materials on this list can be animated even if they're blacklisted 
+# (either in the blacklist setting or hardcoded in the plugin).
+# Use the same list of materials as for the power blocks. For example, you would whitelist a bell like so:
+#   - BELL
+materialWhitelist: 
+  - NONE
+
+# List of materials that can be destroyed by opening a door.
+# Normally, when a door encounters another block in the way, it will not toggle to avoid destroying that block
+# However, when the material of that block is on this list, BigDoors will ignore the block and just overwrite it.
+# This is mostly intended to avoid issues with toggling doors in snowy areas.
+materialDestroyList: 
+  - LAVA
+  - WATER
+  - SNOW
+  - FERN
+  - GRASS
+  - TALL_GRASS
+  - TALL_GRASS
+  - SEAGRASS
+  - TALL_SEAGRASS
+
+
+# Maximum number of doors a player can own. -1 = infinite.
+maxDoorCount: -1
+
+# Change the way doors are counted when determining how many doors a player owns.
+# Valid options are '0', '1', or '2'.
+# When set to '0', only doors created by a player are counted.
+# When set to '1', all doors with level '0' as well as any doors they are shared as admin of are counted.
+# When set to '2', all doors they are (partial) owner of are counted.
+countDoorsLevel: 0
+
+# The maximum number of blocks a door can move. This only applies to doors that move in a straight line (e.g. sliding door).
+# Values less than 1 are invalid. 
+maxBlocksToMove: 100
+
+# Specify a language file to be used. Note that en_US.txt will get regenerated!
+languageFile: 'en_US'
+
+# Pick the name (and location if you want) of the database.
+dbFile: 'doorDB.db'
+
+# Whether to announce that the plugin is looking for updates when no updates are available.
+# This does not affect the actual check, just the messages that it is checking (once per 12 hours).
+announceUpdateCheck: true
+
+# Allow this plugin to automatically download new updates. They will be applied on restart.
+auto-update: true
+
+# Time (in minutes) to delay auto downloading updates after their release.
+# Setting it to 2160 means that updates will be downloaded 36h after their release.
+# This is useful, as it will mean that the update won't get downloaded if I decide to pull it for some reason
+# (within the specified timeframe, of course). Note that updates cannot be deferred for more than 1 week (10080 minutes).
+downloadDelay: 2160.0
+
+# Allow this plugin to send (anonymised) stats using bStats. Please consider keeping it enabled.
+# It has a negligible impact on performance and more users on stats keeps me more motivated to support this plugin!
+# You can see all the stats that are gathered here: https://bstats.org/plugin/bukkit/BigDoors
+allowStats: true
+
+# Enable or disable compatibility hooks for certain plugins. If the plugins aren't installed, these options do nothing.
+# When enabled, doors cannot be opened or created in areas not owned by the door's owner.
+towny: true
+plotsquared: true
+worldguard: true
+griefprevention: true
+lands: true
+medievalfactions: true
+redprotect: true
+griefdefender: true
+
+# Max. number of blocks allowed in a door (including air blocks). Doors exceeding this limit cannt be created or used.
+# For example, If you'd want to allow doors of 20 by 10 blocks, you'd need a limit of at least 200.
+# This is a global limit that not even OPs can bypass. Use permissions for more fine-grained control.
+# Use -1 to disable this limit.
+maxDoorSize: -1
+
+# The maximum distance between a door's engine and its powerblock. Like maxDoorSize, this is a global limit. 
+# Not even OPs can bypass it! Use -1 to disable this limit.
+maxPowerBlockDistance: -1
+
+# The maximum value of an autoCloseTimer (specified in ticks). 
+# A value of 6000 is 5 minutes. Use a negative value to allow unlimited values. 
+maxAutoCloseTimer: 6000
+
+# This plugin uses a support resource pack for things such as sound.
+# Disabling this option means that the plugin will not try to send the resource pack to clients.
+# However, the sounds will still work if the resource pack is installed in some other way.
+# For example, when merged with another server resource pack, or when installed locally by the client.
+# Different packs will be used for different versions of Minecraft.
+# The full list of resource packs per version can be found here:
+# https://github.com/PimvanderLoos/BigDoors/blob/master/core/src/main/java/nl/pim16aap2/bigDoors/util/ResourcePackDetails.java
+resourcePackEnabled: true
+
+# The range of the sounds the doors make, counted in number of blocks. Note that using too high ranges may cause lag.
+# The sound is only played at the engine of a door.
+# Use a value of 0 or less to completely disable all sounds.
+soundRange: 15
+
+# These multipliers affect the opening/closing speed of their respective door types.
+# Note that the maximum speed is limited, so beyond a certain point rasising these values won't have any effect.
+# To use the default values, set them to "0.0" or "1.0" (without quotation marks).
+# bd = Big Door, pc = PortCullis, db = DrawBridge, sd = Sliding Door.
+# Note that everything is optimized for default values, so it's recommended to leave this setting as-is.
+bdMultiplier: 1.0
+pcMultiplier: 1.0
+dbMultiplier: 1.0
+sdMultiplier: 1.0
+flMultiplier: 1.0
+elMultiplier: 1.0
+
+# Cooldown on using doors. Time is measured in seconds.
+coolDown: 0
+
+# Make a backup of the database before upgrading it. I'd recommend leaving this on true. 
+# In case anything goes wrong, you can just revert to the old version! Only the most recent backup will be kept.
+makeBackup: true
+
+# Amount of time (in minutes) to cache powerblock positions. -1 means no caching (not recommended!), 0 = infinite cache.
+# Doesn't take up a lot of RAM, so it's recommended to leave this value high. It'll get updated automatically when needed anyway.
+cacheTimeout: 120
+
+# When Vault is present, you can set the price of door creation here for every type of door.
+# You can use the word "blockCount" (without quotationmarks, case sensitive) as a variable that will be replaced by the actual blockCount.
+# Furthermore, you can use these operators: -, +, *, /, sqrt(), ^, %, min(a,b), max(a,b), abs(), log(a), ln(a), e, pi, and parentheses.
+# For example: "doorPrice='max(10, sqrt(16)^4/100*blockCount)'" would return 10 for a blockCount of 0 to 3 and 10.24 for a blockCount of 4.
+# You must always put the formula or simple value or whatever in quotation marks! Also, these settings do nothing if Vault isn't installed!
+doorPrice: '0'
+drawbridgePrice: '0'
+portcullisPrice: '0'
+slidingDoorPrice: '0'
+
+# Whether to refund the price of the door when it is deleted. This uses the price that is currently configured for it.
+refundOnDelete: false
+
+# Amount of time (measured in seconds) until a command waiter times out.
+# Don't forget to update the language file if you change this!
+commandWaiterTimeout: 40
+
+# Try to load chunks when a door is toggled. When set to false, doors will not be toggled if more than 1 chunk needs to be loaded.
+# When set to true, the plugin will try to load all chunks the door will interact with before toggling. If more than 1 chunk 
+# needs to be loaded, the door will skip its animation to avoid spawning a bunch of entities no one can see anyway.
+loadChunksForToggle: true
+
+# Skip toggles in unloaded chunks if the door has an autoCloseTimer set. 
+# This avoids loading chunks only to load them again a little bit later for the autoCloseTimer. 
+# The autoCloseTimer itself is not affected, so the timer can still toggle doors regardless of 
+# this specific setting. 
+# Note that this setting has not effect if "loadChunksForToggle" is disabled.
+skipUnloadedAutoCloseToggle: true
+
+# Whether or not to allow toggle notifications. 
+# When enabled, door creators can opt-in to receive notifications whenever a door is toggled.
+# This is on a per-door basis.
+allowNotifications: true
+
+# Sets the custom name 'BigDoorsEntity' for all animated blocks.
+# This can be useful for identifying animated blocks used by this plugin.
+# However, the name is visible on 1.20.4+ when you look at the entities.
+setCustomName: false
+
+# On unsupported versions of Minecraft, BigDoors can try to generate the required code itself.
+# This means that the plugin may work even on unsupported versions, 
+# but also that unexpected issues might pop up! Be sure to test everything when using this!
+# Note that this is geared only towards NEWER version of Minecraft!
+# In other words: No, this cannot be used to support 1.8! It. Will. Not. Work.
+# There are many other reasons than the code to be generated why it will not work.
+# The code being generated is the code used to create/move/etc animated blocks.
+# So when testing this on your TEST SERVER, be sure to check that that still works.
+allowCodeGeneration: true
+
+# Forces BigDoors to use generated code even on supported versions.
+# This may be useful in case the mappings change within a single version.
+# In general, however, you will not need this and you're better off not using it!
+# When this option is enabled, it overrides the "allowCodeGeneration" option.
+forceCodeGeneration: false
+
+# Whether to write stuff to BigDoor's own log file. Please keep this enabled if you want to receive support.
+enableFileLogging: true
+
+# Only load this plugin in supported environments.
+# Enabling this is NOT SUPPORTED and you WILL run into issues. 
+# By enabling this option you agree that you will not complain if any issues arise and that it is completely
+# your own responsibility.
+# If you need to enable this option you are doing it wrong and you should rethink your life choices.
+unsafeMode: false
+
+# Don't use this. Just leave it on false.
+DEBUG: false
+

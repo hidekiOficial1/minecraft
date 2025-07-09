@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.184.246.104
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752091202338
+  login: 1752090257651
+money: '0'
+logoutlocation:
+  world: 3b585df4-4b3c-4542-acbd-24e0ed0c26de
+  world-name: world
+  x: 74.33427071879554
+  y: 87.0
+  z: -287.95286912840163
+  yaw: 5.179283142089844
+  pitch: 10.437027931213379
+last-account-name: NT_ZED
+homes:
+  home:
+    world: 3b585df4-4b3c-4542-acbd-24e0ed0c26de
+    world-name: world
+    x: -1335.69843315391
+    y: 88.5
+    z: -181.4869164370183
+    yaw: 77.14822387695312
+    pitch: 28.351360321044922
+lastlocation:
+  world: 3b585df4-4b3c-4542-acbd-24e0ed0c26de
+  world-name: world
+  x: -1335.69843315391
+  y: 88.5
+  z: -181.4869164370183
+  yaw: 97.86654663085938
+  pitch: 25.235820770263672

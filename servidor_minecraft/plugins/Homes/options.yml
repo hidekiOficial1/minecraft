@@ -1,0 +1,17 @@
+options:
+  particle:
+    enabled: 'true'
+    particle: FLAME
+    delay: '10'
+    info: '//All Available Particles: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html'
+  homerank:
+    enabled: 'true'
+    defaultsize: '20'
+  homes:
+    rank_player:
+      maxsize: '20'
+  navigation:
+    particle:
+      spacing: '0.5'
+      length: '5'
+      particle: SOUL_FIRE_FLAME
