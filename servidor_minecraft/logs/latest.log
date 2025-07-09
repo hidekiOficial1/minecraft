@@ -1,335 +1,122 @@
-[05:14:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:14:35] [ServerMain/INFO]: Loaded 7 recipes
-[05:14:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[05:14:36] [Server thread/INFO]: Loading properties
-[05:14:36] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[05:14:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:14:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:14:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:12:10] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:12:12] [ServerMain/INFO]: Loaded 7 recipes
+[19:12:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:12:12] [Server thread/INFO]: Loading properties
+[19:12:12] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[19:12:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:12:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:12:13] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[05:14:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[05:14:37] [Server thread/INFO]: Default game type: SURVIVAL
-[05:14:37] [Server thread/INFO]: Generating keypair
-[05:14:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:14:37] [Server thread/INFO]: Using epoll channel type
-[05:14:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:14:37] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[05:14:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:14:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:14:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:14:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:14:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:14:37] [Server thread/INFO]: Preparing level "world"
-[05:14:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:14:38] [Server thread/INFO]: Time elapsed: 244 ms
-[05:14:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:14:38] [Server thread/INFO]: Time elapsed: 92 ms
-[05:14:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:14:38] [Server thread/INFO]: Time elapsed: 59 ms
-[05:14:38] [Server thread/INFO]: Running delayed init tasks
-[05:14:38] [Server thread/INFO]: Done (2.130s)! For help, type "help"
-[05:14:38] [Server thread/INFO]: Timings Reset
-[05:17:20] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[05:17:22] [User Authenticator #0/INFO]: UUID of player junior42 is aeeaf9d0-cb7e-3dc0-a9e6-7887767fd251
-[05:17:23] [Server thread/INFO]: junior42 joined the game
-[05:17:23] [Server thread/INFO]: junior42[/127.176.244.144:45997] logged in with entity id 109 at ([world]-1426.2307354917975, 62.07326432466506, 509.7852107630059)
-[05:17:42] [Server thread/INFO]: You whisper to junior42: holaa
-[05:18:11] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[05:18:21] [Server thread/INFO]: You whisper to junior42: soy diosito
-[05:18:40] [Server thread/INFO]: junior42 was shot by Skeleton
-[05:18:48] [User Authenticator #1/INFO]: UUID of player NT_ZED is bef16be2-c60d-3fec-aee4-f866eac40c9e
-[05:18:48] [Server thread/INFO]: NT_ZED joined the game
-[05:18:48] [Server thread/INFO]: NT_ZED[/127.103.196.144:60671] logged in with entity id 925 at ([world]-1333.8484799450575, 68.0, -374.8538751790185)
-[05:19:06] [Server thread/INFO]: NT_ZED issued server command: /skin
-[05:19:10] [Server thread/INFO]: NT_ZED issued server command: /reload
-[05:19:10] [Server thread/INFO]: NT_ZED: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[05:19:23] [Server thread/INFO]: NT_ZED issued server command: /reload confirm
-[05:19:23] [Server thread/INFO]: NT_ZED: Please note that this command is not supported and may cause issues when using some plugins.
-[05:19:23] [Server thread/INFO]: NT_ZED: If you encounter any issues please use the /stop command to restart your server.
-[05:19:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:19:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:19:23] [Server thread/INFO]: Loaded 7 recipes
-[05:19:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:19:23] [Server thread/INFO]: NT_ZED: Reload complete.
-[05:19:23] [Server thread/INFO]: Timings Reset
-[05:19:28] [Server thread/INFO]: NT_ZED issued server command: /skin
-[05:20:40] [Server thread/INFO]: NT_ZED issued server command: /plugins
-[05:20:44] [Server thread/INFO]: NT_ZED issued server command: /addoms
-[05:22:52] [Server thread/INFO]: NT_ZED issued server command: /reload confirms
-[05:22:52] [Server thread/INFO]: NT_ZED: Usage: /reload [permissions|commands|confirm]
-[05:22:55] [Server thread/INFO]: NT_ZED issued server command: /reload
-[05:22:55] [Server thread/INFO]: NT_ZED: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[05:23:00] [Server thread/INFO]: NT_ZED issued server command: /reload confirm
-[05:23:00] [Server thread/INFO]: NT_ZED: Please note that this command is not supported and may cause issues when using some plugins.
-[05:23:00] [Server thread/INFO]: NT_ZED: If you encounter any issues please use the /stop command to restart your server.
-[05:23:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:23:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:23:00] [Server thread/INFO]: Loaded 7 recipes
-[05:23:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:23:00] [Server thread/INFO]: NT_ZED: Reload complete.
-[05:23:00] [Server thread/INFO]: Timings Reset
-[05:23:03] [Server thread/INFO]: NT_ZED issued server command: /plugins
-[05:24:41] [Server thread/INFO]: NT_ZED issued server command: /plugins
-[05:25:16] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[05:25:16] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[05:25:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:25:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:25:16] [Server thread/INFO]: Loaded 7 recipes
-[05:25:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.15
-[05:25:17] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[05:25:17] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
-[05:25:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:25:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.15
-[05:25:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[05:25:17] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:25:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[05:25:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[05:25:17] [Server thread/INFO]: [ClearLag] Config not found. Generating default config...
-[05:25:17] [Server thread/INFO]: [ClearLag] Loading modules...
-[05:25:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[05:25:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[05:25:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[05:25:17] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[05:25:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[05:25:17] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
-[05:25:17] [Server thread/INFO]: [TAB] Loaded NMS hook in 80ms
-[05:25:17] [Thread-10/INFO]: [ClearLag] No updates found!
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.15
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcfa8b9
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.7.5) is available! Downloading update...
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:25:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
-[05:25:18] [Server thread/INFO]: [TAB] [WARN] Player NT_ZED's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[05:25:18] [Server thread/INFO]: [TAB] [WARN] Player junior42's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[05:25:18] [Server thread/INFO]: [TAB] Enabled in 194ms
-[05:25:18] [Server thread/INFO]: CONSOLE: Reload complete.
-[05:25:18] [Server thread/INFO]: Timings Reset
-[05:25:18] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] [GitHubUpdate] MD5 header not found, cannot verify integrity
-[05:25:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 792ms
-[05:25:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer (1).jar
-[05:25:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
-[05:25:30] [Server thread/INFO]: NT_ZED issued server command: /skin NT_ZED
-[05:25:37] [Server thread/INFO]: NT_ZED issued server command: /tp junior42
-[05:25:37] [Server thread/INFO]: [NT_ZED: Teleported NT_ZED to junior42]
-[05:25:59] [Server thread/INFO]: junior42 issued server command: /skin
-[05:26:02] [Server thread/INFO]: junior42 was slain by Wolf
-[05:26:13] [Server thread/INFO]: NT_ZED lost connection: Disconnected
-[05:26:13] [Server thread/INFO]: NT_ZED left the game
-[05:26:14] [User Authenticator #2/INFO]: UUID of player NT_ZED is bef16be2-c60d-3fec-aee4-f866eac40c9e
-[05:26:14] [Server thread/INFO]: NT_ZED joined the game
-[05:26:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Player NT_ZED's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[05:26:14] [Server thread/INFO]: NT_ZED[/127.103.196.144:41667] logged in with entity id 3951 at ([world]-807.671133602945, 64.0, 175.8360870519338)
-[05:26:22] [Server thread/INFO]: NT_ZED issued server command: /tp junior42 NT_ZED
-[05:26:22] [Server thread/INFO]: [NT_ZED: Teleported junior42 to NT_ZED]
-[05:27:00] [Async Chat Thread - #2/INFO]: [Not Secure] <junior42> junior42
-[05:27:10] [Server thread/INFO]: NT_ZED issued server command: /skin junior42
-[05:27:10] [Server thread/INFO]: junior42 issued server command: /skinsrestorer:skin
-[05:27:22] [Server thread/INFO]: NT_ZED issued server command: /skin NT_ZED
-[05:27:45] [Server thread/INFO]: NT_ZED issued server command: /deop
-[05:27:50] [Server thread/INFO]: NT_ZED issued server command: /deop NT_ZED
-[05:27:50] [Server thread/INFO]: [NT_ZED: Made NT_ZED no longer a server operator]
-[05:30:02] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[05:30:02] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[05:30:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:30:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:30:02] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[05:30:02] [Server thread/INFO]: [TAB] Disabled in 1ms
-[05:30:02] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[05:30:02] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[05:30:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.15
-[05:30:02] [Server thread/INFO]: Loaded 7 recipes
-[05:30:02] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.5
-[05:30:02] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[05:30:02] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
-[05:30:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:30:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.5
-[05:30:03] [Server thread/INFO]: [SkinsRestorer] Renaming customGUI.enabled to gui.custom.enabled
-[05:30:03] [Server thread/INFO]: [SkinsRestorer] Renaming customGUI.showOnlyCustomGUI to gui.custom.onlyShowList
-[05:30:03] [Server thread/INFO]: [SkinsRestorer] Renaming customGUI.list to gui.custom.list
-[05:30:03] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[05:30:03] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:30:03] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[05:30:03] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[05:30:03] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[05:30:03] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[05:30:03] [Server thread/INFO]: [ClearLag] Loading modules...
-[05:30:03] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[05:30:03] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[05:30:03] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[05:30:03] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[05:30:03] [Thread-12/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[05:30:03] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
-[05:30:03] [Server thread/INFO]: [TAB] Loaded NMS hook in 32ms
-[05:30:03] [Thread-12/INFO]: [ClearLag] No updates found!
-[05:30:03] [Server thread/INFO]: [TAB] [WARN] Player NT_ZED's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[05:30:03] [Server thread/INFO]: [TAB] [WARN] Player junior42's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.7.5
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 9bd68f3
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[05:30:03] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[05:30:03] [Server thread/INFO]: [TAB] Enabled in 137ms
-[05:30:03] [Server thread/INFO]: CONSOLE: Reload complete.
-[05:30:03] [Server thread/INFO]: Timings Reset
-[05:30:17] [Server thread/INFO]: NT_ZED issued server command: /plugins
-[05:30:37] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[05:30:37] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[05:30:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:30:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:30:37] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[05:30:37] [Server thread/INFO]: [TAB] Disabled in 0ms
-[05:30:37] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[05:30:37] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[05:30:37] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.5
-[05:30:38] [Server thread/INFO]: Loaded 7 recipes
-[05:30:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.5
-[05:30:38] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[05:30:38] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
-[05:30:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:30:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.5
-[05:30:38] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[05:30:38] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[05:30:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:30:39] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[05:30:39] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[05:30:39] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[05:30:39] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[05:30:39] [Server thread/INFO]: [ClearLag] Loading modules...
-[05:30:39] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[05:30:39] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[05:30:39] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[05:30:39] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[05:30:39] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
-[05:30:39] [Thread-13/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[05:30:39] [Server thread/INFO]: [TAB] Loaded NMS hook in 29ms
-[05:30:39] [Server thread/INFO]: [TAB] [WARN] Player NT_ZED's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[05:30:39] [Server thread/INFO]: [TAB] [WARN] Player junior42's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.5
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 9bd68f3
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[05:30:39] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[05:30:39] [Server thread/INFO]: [TAB] Enabled in 127ms
-[05:30:39] [Server thread/INFO]: CONSOLE: Reload complete.
-[05:30:39] [Server thread/INFO]: Timings Reset
-[05:30:39] [Thread-13/INFO]: [ClearLag] No updates found!
-[05:59:34] [Server thread/INFO]: NT_ZED fell from a high place
-[06:02:25] [Server thread/INFO]: junior42 has made the advancement [Diamonds!]
-[06:08:26] [Server thread/INFO]: junior42 was blown up by Creeper
-[06:25:05] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[06:25:05] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[06:25:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:25:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:25:05] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[06:25:05] [Server thread/INFO]: [TAB] Disabled in 1ms
-[06:25:05] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[06:25:05] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[06:25:05] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.5
-[06:25:06] [Server thread/INFO]: Loaded 7 recipes
-[06:25:06] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.5
-[06:25:06] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[06:25:06] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
-[06:25:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:25:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.5
-[06:25:06] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
-[06:25:06] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[06:25:07] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[06:25:07] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[06:25:07] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[06:25:07] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[06:25:07] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[06:25:07] [Server thread/INFO]: [ClearLag] Loading modules...
-[06:25:07] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[06:25:07] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[06:25:07] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[06:25:07] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[06:25:07] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[06:25:07] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
-[06:25:07] [Server thread/INFO]: [TAB] Loaded NMS hook in 25ms
-[06:25:07] [Thread-14/INFO]: [ClearLag] No updates found!
-[06:25:07] [Server thread/INFO]: [TAB] [WARN] Player NT_ZED's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[06:25:07] [Server thread/INFO]: [TAB] [WARN] Player junior42's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[06:25:07] [Server thread/INFO]: [TAB] Enabled in 103ms
-[06:25:07] [Server thread/INFO]: CONSOLE: Reload complete.
-[06:25:07] [Server thread/INFO]: Timings Reset
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.7.5
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 9bd68f3
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[06:25:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[06:37:04] [Server thread/INFO]: junior42 was shot by Skeleton
-[06:43:42] [Server thread/INFO]: junior42 was blown up by Creeper
-[06:47:49] [Server thread/INFO]: NT_ZED has made the advancement [The Parrots and the Bats]
-[06:55:09] [Server thread/INFO]: junior42 fell from a high place
-[06:55:25] [Server thread/INFO]: junior42 has made the advancement [Voluntary Exile]
-[06:59:45] [Server thread/INFO]: junior42 was blown up by Creeper
-[07:14:42] [Server thread/INFO]: junior42 was shot by Pillager
-[07:18:46] [Server thread/WARN]: junior42 moved wrongly!
-[07:20:01] [Server thread/INFO]: Teleported NT_ZED to junior42
-[07:21:39] [Server thread/INFO]: Stopping the server
-[07:21:39] [Server thread/INFO]: Stopping server
-[07:21:39] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
-[07:21:39] [Server thread/INFO]: [TAB] Disabled in 1ms
-[07:21:39] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[07:21:39] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[07:21:39] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.5
-[07:21:39] [Server thread/INFO]: Saving players
-[07:21:39] [Server thread/INFO]: NT_ZED lost connection: Server closed
-[07:21:39] [Server thread/INFO]: NT_ZED left the game
-[07:21:39] [Server thread/INFO]: junior42 lost connection: Server closed
-[07:21:39] [Server thread/INFO]: junior42 left the game
-[07:21:39] [Server thread/INFO]: Saving worlds
-[07:21:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Saved 149 block chunks, 480 entity chunks, 0 poi chunks in world 'world' in 0.23s
-[07:21:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:21:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[07:21:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:21:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:21:39] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[07:21:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:21:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:21:39] [Server thread/INFO]: Flushing Chunk IO
-[07:21:39] [Server thread/INFO]: Closing Thread Pool
-[07:21:39] [Server thread/INFO]: Closing Server
+[19:12:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:12:13] [Server thread/INFO]: Default game type: SURVIVAL
+[19:12:13] [Server thread/INFO]: Generating keypair
+[19:12:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:12:14] [Server thread/INFO]: Using epoll channel type
+[19:12:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:12:14] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:12:14] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.12.2
+[19:12:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.5
+[19:12:14] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[19:12:14] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
+[19:12:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:12:14] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.12.2
+[19:12:14] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material crafter, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material copper_door, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material exposed_copper_door, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material oxidized_copper_door, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_copper_door, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_exposed_copper_door, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_oxidized_copper_door, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material waxed_weathered_copper_door, ignoring it
+[19:12:18] [Server thread/WARN]: [BlockLocker] Cannot recognize material weathered_copper_door, ignoring it
+[19:12:18] [Server thread/INFO]: [BlockLocker] Saving translations
+[19:12:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.5
+[19:12:19] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[19:12:19] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:12:19] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[19:12:19] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[19:12:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:12:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:12:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:12:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:12:19] [Server thread/INFO]: Preparing level "world"
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.5
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 9bd68f3
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:12:19] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:12:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:12:20] [Server thread/INFO]: Time elapsed: 443 ms
+[19:12:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:12:20] [Server thread/INFO]: Time elapsed: 39 ms
+[19:12:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:12:20] [Server thread/INFO]: Time elapsed: 54 ms
+[19:12:20] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[19:12:20] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[19:12:21] [Server thread/INFO]: [ClearLag] Loading modules...
+[19:12:21] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[19:12:21] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[19:12:21] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[19:12:21] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[19:12:21] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[19:12:21] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
+[19:12:21] [Thread-10/INFO]: [ClearLag] No updates found!
+[19:12:22] [Server thread/INFO]: [TAB] Loaded NMS hook in 606ms
+[19:12:23] [Server thread/INFO]: [TAB] Enabled in 523ms
+[19:12:23] [Server thread/INFO]: Running delayed init tasks
+[19:12:23] [Server thread/INFO]: Done (10.505s)! For help, type "help"
+[19:12:23] [Server thread/INFO]: Timings Reset
+[19:12:23] [Server thread/INFO]: The latest version of BlockLocker (version 1.13.0) no longer supports this Minecraft version, only Minecraft 1.20.2, 1.20.4, 1.20.6, 1.21, 1.21.1, 1.21.2, 1.21.3, 1.21.4, 1.21.5, 1.21.6.
+[19:12:23] [Server thread/INFO]: More information: https://www.spigotmc.org/resources/blocklocker.3268/update?update=571821
+[19:12:56] [User Authenticator #0/INFO]: UUID of player NT_ZED is bef16be2-c60d-3fec-aee4-f866eac40c9e
+[19:12:56] [Server thread/INFO]: NT_ZED joined the game
+[19:12:56] [TAB Processing Thread/INFO]: [TAB] [WARN] Player NT_ZED's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:12:56] [Server thread/INFO]: NT_ZED[/127.184.246.104:55511] logged in with entity id 102 at ([world]-1340.3918708465897, 87.0, -174.9627751207119)
+[19:13:25] [Server thread/INFO]: NT_ZED issued server command: /
+[19:13:30] [Server thread/INFO]: Made NT_ZED a server operator
+[19:13:36] [Server thread/INFO]: NT_ZED issued server command: /plugins
+[19:14:52] [Server thread/INFO]: NT_ZED issued server command: /plugins
+[19:15:04] [Server thread/INFO]: Stopping the server
+[19:15:04] [Server thread/INFO]: Stopping server
+[19:15:04] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
+[19:15:04] [Server thread/INFO]: [TAB] Disabled in 1ms
+[19:15:04] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[19:15:04] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[19:15:04] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.5
+[19:15:04] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.12.2
+[19:15:04] [Server thread/INFO]: Saving players
+[19:15:04] [Server thread/INFO]: NT_ZED lost connection: Server closed
+[19:15:04] [Server thread/INFO]: NT_ZED left the game
+[19:15:04] [Server thread/INFO]: Saving worlds
+[19:15:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:15:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:15:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:15:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Saved 1204 block chunks, 1204 entity chunks, 0 poi chunks in world 'world' in 2.27s
+[19:15:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.53s
+[19:15:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:15:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:15:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:15:08] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.16s
+[19:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:15:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:15:08] [Server thread/INFO]: Flushing Chunk IO
+[19:15:08] [Server thread/INFO]: Closing Thread Pool
+[19:15:08] [Server thread/INFO]: Closing Server
