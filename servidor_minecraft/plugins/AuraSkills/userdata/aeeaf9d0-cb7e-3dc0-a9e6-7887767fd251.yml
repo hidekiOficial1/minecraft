@@ -8,31 +8,36 @@ skills:
     xp: 0.0
   auraskills/fighting:
     level: 0
-    xp: 7.0
+    xp: 24.0
   auraskills/defense:
     level: 0
-    xp: 0.0
+    xp: 96.0
   auraskills/enchanting:
     level: 0
     xp: 0.0
   auraskills/farming:
     level: 0
-    xp: 0.0
+    xp: 7.0
   auraskills/agility:
-    level: 0
-    xp: 0.0
+    level: 1
+    xp: 52.23320000000001
   auraskills/foraging:
     level: 0
-    xp: 0.0
+    xp: 8.0
   auraskills/excavation:
     level: 0
-    xp: 0.7
+    xp: 2.7
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/mining:
-    level: 0
-    xp: 0.0
-mana: 20.0
+    level: 2
+    xp: 416.38000000000017
+mana: 22.0
 action_bar:
   idle: true
+trait_modifiers:
+  '0':
+    name: mining_luck_ability
+    trait: auraskills/mining_luck
+    value: 5.0
