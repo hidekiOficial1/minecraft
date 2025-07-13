@@ -168,3 +168,4 @@ SHOWITEM_MESSAGE: true
 
 # Add stock counter to quantity line?
 USE_STOCK_COUNTER: false
+
