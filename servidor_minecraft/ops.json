@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "bef16be2-c60d-3fec-aee4-f866eac40c9e",
+    "name": "NT_ZED",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
