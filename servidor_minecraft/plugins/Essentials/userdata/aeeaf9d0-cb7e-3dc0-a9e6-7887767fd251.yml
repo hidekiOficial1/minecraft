@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1752451541052
   login: 1752448956270
 money: '0'
 last-account-name: junior42
@@ -28,3 +28,11 @@ lastlocation:
   z: -177.47967535018626
   yaw: -139.22622680664062
   pitch: 57.0730094909668
+logoutlocation:
+  world: 3b585df4-4b3c-4542-acbd-24e0ed0c26de
+  world-name: world
+  x: -1697.5987336584271
+  y: 62.523264312744146
+  z: 9.836044707387648
+  yaw: 149.365234375
+  pitch: 38.30529022216797

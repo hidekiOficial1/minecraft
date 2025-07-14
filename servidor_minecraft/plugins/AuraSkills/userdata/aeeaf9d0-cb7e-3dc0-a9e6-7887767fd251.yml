@@ -19,20 +19,20 @@ skills:
     level: 0
     xp: 7.0
   auraskills/agility:
-    level: 1
-    xp: 152.5984
+    level: 2
+    xp: 74.43200000000002
   auraskills/foraging:
     level: 0
-    xp: 11.200000000000003
+    xp: 19.20000000000001
   auraskills/excavation:
     level: 0
-    xp: 6.900000000000001
+    xp: 16.500000000000004
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/mining:
     level: 2
-    xp: 417.2600000000003
+    xp: 450.2600000000003
 mana: 22.0
 action_bar:
   idle: true
