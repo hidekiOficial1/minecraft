@@ -3651,3 +3651,5 @@ java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.ge
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:09:15] [Server thread/INFO]: NT_ZED issued server command: /sk lang es
+[05:15:36] [Server thread/INFO]: NT_ZED issued server command: /auraskills:config

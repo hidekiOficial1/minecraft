@@ -5,7 +5,7 @@ skills:
     xp: 0.0
   auraskills/agility:
     level: 3
-    xp: 685.4945999999999
+    xp: 688.7398
   auraskills/enchanting:
     level: 0
     xp: 0.0
@@ -36,6 +36,7 @@ skills:
 mana: 24.0
 action_bar:
   idle: true
+locale: es
 trait_modifiers:
   '0':
     name: mining_luck_ability
