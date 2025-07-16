@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1752641876417
   login: 1752639340999
 money: '0'
 last-account-name: Tesrra
@@ -28,3 +28,11 @@ lastlocation:
   z: 187.70591918382817
   yaw: 16.500219345092773
   pitch: 7.350040912628174
+logoutlocation:
+  world: 3b585df4-4b3c-4542-acbd-24e0ed0c26de
+  world-name: world
+  x: -1343.5
+  y: 87.0
+  z: -177.5
+  yaw: 7.500051021575928
+  pitch: -2.8014183044433594E-6
