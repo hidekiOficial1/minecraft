@@ -18,7 +18,7 @@ sql:
   load_delay: 0
   always_load_on_join: false
   ssl: false
-default_language: en
+default_language: es
 languages:
 - en
 - es
