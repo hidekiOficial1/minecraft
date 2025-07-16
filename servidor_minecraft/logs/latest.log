@@ -3681,3 +3681,88 @@ java.lang.NoSuchMethodError: 'java.lang.String org.bukkit.inventory.Inventory.ge
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05:39:46] [Server thread/INFO]: NT_ZED issued server command: /plugins
+[05:41:08] [Server thread/INFO]: Stopping the server
+[05:41:08] [Server thread/INFO]: Stopping server
+[05:41:08] [Server thread/INFO]: [TAB] Disabling TAB v4.1.6
+[05:41:08] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:41:08] [Server thread/INFO]: [BigDoorsPhysics] Disabling BigDoorsPhysics v2.4.2
+[05:41:08] [Server thread/INFO]: [BigDoorsPhysics] Removing leftover colliders
+[05:41:08] [Server thread/INFO]: [ActionHealth] Disabling ActionHealth v3.5.9
+[05:41:08] [Server thread/INFO]: [LegendarySwords] Disabling LegendarySwords v1.0.2
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §c******************************************
+[05:41:08] [Server thread/WARN]: Nag author(s): '[]' of 'LegendarySwords v1.0.2' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §c*            Legendary Swords            *
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §c*                                        *
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §c*            Created By Chiru            *
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §c*                                        *
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §c******************************************
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §cLegendary Swords, has been shutdown!
+[05:41:08] [Server thread/INFO]: [LegendarySwords] [STDOUT] §c******************************************
+[05:41:08] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v0.9.3
+[05:41:08] [Server thread/INFO]: Advanced portals are being disabled!
+[05:41:08] [Server thread/INFO]: [Homes] Disabling Homes v1.5.6
+[05:41:08] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.1.4
+[05:41:08] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[05:41:08] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.21.0
+[05:41:08] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.4.0
+[05:41:08] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[05:41:08] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[05:41:08] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.23
+[05:41:08] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[05:41:08] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[05:41:08] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[05:41:08] [Server thread/INFO]: [MenuReport] Disabling MenuReport v8.8.1
+[05:41:08] [Server thread/INFO]: ******************
+[05:41:08] [Server thread/INFO]: 
+[05:41:08] [Server thread/INFO]: MenuReport by @iFedeFC
+[05:41:08] [Server thread/INFO]: Plugin: §CDisabled
+[05:41:08] [Server thread/INFO]: 
+[05:41:08] [Server thread/INFO]: ******************
+[05:41:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.6
+[05:41:08] [Server thread/INFO]: [BigDoors] Disabling BigDoors vAlpha 0.1.8.60 (b1191)
+[05:41:08] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.4
+[05:41:08] [Server thread/INFO]: [ChestShop] Disabling ChestShop v3.12.2 (build 353)
+[05:41:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+93-3a6fdd9
+[05:41:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[05:41:08] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[05:41:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[05:41:08] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.0-SNAPSHOT
+[05:41:08] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[05:41:08] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[05:41:08] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.12.2
+[05:41:08] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b109-49bd564)
+[05:41:08] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[05:41:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[05:41:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:41:08] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:41:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:41:08] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.0.0
+[05:41:08] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[05:41:08] [Server thread/INFO]: Saving players
+[05:41:08] [Server thread/INFO]: NT_ZED lost connection: Server closed
+[05:41:08] [Server thread/INFO]: NT_ZED left the game
+[05:41:08] [Server thread/INFO]: Saving worlds
+[05:41:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:41:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:41:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:41:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:41:08] [WebSocketConnectReadThread-121/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[05:41:09] [Server thread/INFO]: [ChunkHolderManager] Saved 1686 block chunks, 354 entity chunks, 4 poi chunks in world 'world' in 0.77s
+[05:41:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:41:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:41:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:41:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:41:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:41:09] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 25 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[05:41:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:41:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:41:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:41:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:41:10] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[05:41:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:41:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:41:10] [Server thread/INFO]: Flushing Chunk IO
+[05:41:10] [Server thread/INFO]: Closing Thread Pool
+[05:41:10] [Server thread/INFO]: Closing Server

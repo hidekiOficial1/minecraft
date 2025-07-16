@@ -19,3 +19,4 @@
 2025-07-16 04:18:43 [INFO]: Tesrra executed: /rtp help
 2025-07-16 04:49:37 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=976.5,y=87.0,z=-842.5,pitch=18.225948,yaw=-24.55487}
 2025-07-16 04:49:55 [INFO]: -Removed a queue Location{world=CraftWorld{name=world},x=226.5,y=158.0,z=366.5,pitch=7.350041,yaw=16.50022}
+2025-07-16 05:41:08 [INFO]: Disabling BetterRTP v3.6.13
