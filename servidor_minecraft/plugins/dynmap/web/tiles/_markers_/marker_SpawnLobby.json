@@ -1,0 +1,13 @@
+{"sets": {"plotme.markerset": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "PlotMe","markers": {}
+,"lines": {}
+,"layerprio": 1}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_SpawnLobby": {"markup": false,"x": 384.00,"icon": "world","y": 8.00,"dim": "16x16","z": 517.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1752781127269}

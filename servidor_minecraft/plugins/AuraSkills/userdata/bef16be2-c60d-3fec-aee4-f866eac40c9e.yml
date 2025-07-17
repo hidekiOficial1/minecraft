@@ -5,16 +5,16 @@ skills:
     xp: 0.0
   auraskills/agility:
     level: 3
-    xp: 688.7398
+    xp: 711.4099999999999
   auraskills/enchanting:
     level: 0
     xp: 0.0
   auraskills/foraging:
     level: 1
-    xp: 50.400000000000006
+    xp: 54.39999999999999
   auraskills/excavation:
     level: 0
-    xp: 30.500000000000004
+    xp: 32.900000000000006
   auraskills/archery:
     level: 0
     xp: 0.0
@@ -26,10 +26,10 @@ skills:
     xp: 363.07999999997503
   auraskills/defense:
     level: 1
-    xp: 124.45641088485718
+    xp: 127.45641088485718
   auraskills/fighting:
     level: 1
-    xp: 84.0
+    xp: 89.0
   auraskills/farming:
     level: 1
     xp: 69.0
