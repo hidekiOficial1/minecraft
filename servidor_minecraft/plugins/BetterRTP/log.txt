@@ -1,26 +1,21 @@
-2025-07-17 19:15:38 [INFO]: Loading Overrides...
-2025-07-17 19:15:38 [INFO]: Loading World Types...
-2025-07-17 19:15:38 [INFO]: - World Type for 'world' set to 'NORMAL'
-2025-07-17 19:15:38 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2025-07-17 19:15:38 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2025-07-17 19:15:38 [INFO]: Loading Defaults...
-2025-07-17 19:15:38 [INFO]: Loading Custom Worlds...
-2025-07-17 19:15:38 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2025-07-17 19:15:38 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2025-07-17 19:15:44 [INFO]: Database COOLDOWN:world configured and loaded!
-2025-07-17 19:15:44 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2025-07-17 19:15:44 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2025-07-17 19:15:44 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-07-17 19:15:44 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-07-17 19:15:44 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-07-17 19:15:45 [INFO]: Attempting to queue up some more safe locations...
-2025-07-17 19:15:45 [INFO]: Queueing paused, max queue limit reached!
-2025-07-17 19:35:04 [INFO]: New world `SpawnLobby` detected! Reloaded Databases!
-2025-07-17 19:35:04 [INFO]: Database COOLDOWN:world configured and loaded!
-2025-07-17 19:35:04 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2025-07-17 19:35:04 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2025-07-17 19:35:04 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2025-07-17 19:35:04 [INFO]: Database PLAYERS:Players configured and loaded!
-2025-07-17 19:35:04 [INFO]: Database QUEUE:Queue configured and loaded!
-2025-07-17 19:35:04 [INFO]: Database COOLDOWN:SpawnLobby configured and loaded!
-2025-07-17 20:13:03 [INFO]: Disabling BetterRTP v3.6.13
+2025-07-17 23:09:20 [INFO]: Loading Overrides...
+2025-07-17 23:09:20 [INFO]: Loading World Types...
+2025-07-17 23:09:20 [INFO]: - World Type for 'world' set to 'NORMAL'
+2025-07-17 23:09:20 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2025-07-17 23:09:20 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2025-07-17 23:09:20 [INFO]: Loading Defaults...
+2025-07-17 23:09:20 [INFO]: Loading Custom Worlds...
+2025-07-17 23:09:20 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2025-07-17 23:09:20 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2025-07-17 23:09:20 [INFO]: Database PLAYERS:Players configured and loaded!
+2025-07-17 23:09:20 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2025-07-17 23:09:20 [INFO]: Database COOLDOWN:world configured and loaded!
+2025-07-17 23:09:20 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2025-07-17 23:09:20 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2025-07-17 23:09:20 [INFO]: Database COOLDOWN:SpawnLobby configured and loaded!
+2025-07-17 23:09:20 [INFO]: Database QUEUE:Queue configured and loaded!
+2025-07-17 23:09:21 [INFO]: Attempting to queue up some more safe locations...
+2025-07-17 23:09:22 [INFO]: Queueing paused, max queue limit reached!
+2025-07-17 23:12:03 [WARNING]: Seems like the world `SpawnLobby` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- SpawnLobby: NETHER`
+2025-07-17 23:12:03 [INFO]: -Removed a queue Location{world=CraftWorld{name=SpawnLobby},x=544.5,y=4.0,z=793.5,pitch=-13.240917,yaw=138.95273}
+2025-07-17 23:16:15 [INFO]: Disabling BetterRTP v3.6.13

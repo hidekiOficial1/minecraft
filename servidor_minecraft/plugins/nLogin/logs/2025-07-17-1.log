@@ -1,0 +1,68 @@
+[2025/07/17 20:14:46]: §9          __             _       
+[2025/07/17 20:14:46]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/07/17 20:14:46]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/07/17 20:14:46]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/07/17 20:14:46]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/07/17 20:14:46]: §9                  |___/            
+[2025/07/17 20:14:46]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/07/17 20:14:46]: §9 
+[2025/07/17 20:14:46]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[2025/07/17 20:14:50]: §3[nLogin] [DEBUG] All settings were loaded in 3550 ms.
+[2025/07/17 20:14:50]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/07/17 20:14:50]: §3[nLogin] [DEBUG] All plugin messages were loaded in 53 ms (languageByClient=false).
+[2025/07/17 20:14:50]: §3[nLogin] [DEBUG] All proxy settings were loaded in 7 ms.
+[2025/07/17 20:14:50]: §3[nLogin] [DEBUG] Loading database...
+[2025/07/17 20:14:51]: [nLogin] Generating RSA keypair... (this may take a while)
+[2025/07/17 20:14:53]: [nLogin] The RSA key pair was successfully generated. Took 1.83s
+[2025/07/17 20:14:53]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/07/17 20:15:26]: 
+[2025/07/17 20:15:26]:  §bThank you so much for choosing nLogin! §4<3
+[2025/07/17 20:15:26]: 
+[2025/07/17 20:15:26]:  §4For your safety, please read the message below:
+[2025/07/17 20:15:26]:   §cNever download nLogin from unknown sources.
+[2025/07/17 20:15:26]:   §cA modified version may contain malicious software.
+[2025/07/17 20:15:26]: 
+[2025/07/17 20:15:26]:  §3Trusted sources:
+[2025/07/17 20:15:26]:   §bwww.nickuc.com
+[2025/07/17 20:15:26]:   §bwww.github.com/nickuc
+[2025/07/17 20:15:26]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/07/17 20:15:26]: 
+[2025/07/17 20:15:26]:  §3Official support channels:
+[2025/07/17 20:15:26]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/07/17 20:15:26]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/07/17 20:15:26]:   §bEmail: §fsupport@nickuc.com
+[2025/07/17 20:15:26]:   §bYouTube: §fyoutube.com/nickuc
+[2025/07/17 20:15:26]: 
+[2025/07/17 20:15:26]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/07/17 20:15:26]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/07/17 20:15:26]: 
+[2025/07/17 20:15:55]: §4[nLogin] [ERROR] §cUnable to verify that the player is an NPC. Most likely this is a Citizens error.
+java.lang.NoClassDefFoundError: net/citizensnpcs/api/CitizensAPI
+	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.b(:23)
+	at com.nickuc.login.ΩιιφΔβχυ.c(:125)
+	at com.nickuc.login.ηεΨχΩνμψφ.a(:60)
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor114.execute(Unknown Source)
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
+	at net.minecraft.server.players.PlayerList.canPlayerLogin(PlayerList.java:755)
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:160)
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+	at net.minecraft.network.Connection.tick(Connection.java:602)
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234)
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1586)
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446)
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at nLogin.jar//com.nickuc.login.loader.MemClassLoader.findClass(MemClassLoader.java:56)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 21 more
+[2025/07/17 20:17:45]: [nLogin] Successful plugin core shutdown (took 0.00s)

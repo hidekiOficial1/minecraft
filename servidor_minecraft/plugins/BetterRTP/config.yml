@@ -8,7 +8,7 @@ Settings:
     # # Respect MinePlots plots (https://builtbybit.com/resources/mineplots.21646/)
     MinePlots: false
     # # Respect WorldGuard areas (https://dev.bukkit.org/projects/worldguard)
-    WorldGuard: false
+    WorldGuard: true
     # # Respect GriefPrevention areas (https://www.spigotmc.org/resources/griefprevention.1884/)
     GriefPrevention: false
     # # Respect Towny areas (https://www.spigotmc.org/resources/towny.72694/)
@@ -105,6 +105,8 @@ BlacklistedBlocks:
 DisabledWorlds:
 - prison
 - creative
+-SpawnLobby
+
 
 # # Worlds you want to have a custom min/max and spawn center in #
 # # [MaxRadius] and [MinRadius] MUST be positive! These cannot be equal to each other!

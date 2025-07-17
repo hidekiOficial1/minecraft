@@ -1,0 +1,190 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: 1c0ac70f-f5f3-4fcc-83c0-09a372612ea6
+      cached-skin-uuid-name: goldenpaw33
+      glowing: true
+    name: '&4&lAurelyss'
+    uuid: 7e52408b-3254-4b34-8efe-364aa531a49d
+    traits:
+      location:
+        bodyYaw: -79.7836
+        world: SpawnLobby
+        x: '381.0985'
+        y: '8.0'
+        z: '516.9101'
+        yaw: '-79.7836'
+        pitch: '0.0'
+      owner:
+        uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
+      text:
+        range: '5.0'
+        delay: -1
+        talkitem: default
+        random-talker: true
+        realistic-looking: true
+        speech-bubbles: false
+        talk-close: false
+        text:
+          '0': Hi, I'm <npc>!
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ryHCfrxHRbvLK0CCBzIkZpc2eUHe6a8a/NRS3IpPK5AP/5sGHn1aOB/7X6faCEO7os951P9zjRDo7DBgjAXD+0Ox7Ou57CxvvRiKsaOj00/ZfXtYhzjj98mkUKMjyb+YuGjbmf8AbI828BqfdE4R7XXDt/ZhQbChh9Vzm0E6Gk56bKMb9UaIv4HgGosa82OqQ+hij70vkbgaZbalrbBJTq+/QqWZM0HtWVhIHiapMMRJLEHWGLbFKsoBX7h8+Qcvy/Vv54K4xvXpxcDxr5gXPEaUkmRO6xFvR+ccchlZZyXihg60kF/2ietAnenPV8ibcsWF/iBI6JRb4M7CIR2Oy/NBNAJJYt5YLB5bNfYsTpKWXZOdiQQxBzgpvTAu2b38+JwaJa2cJEjXrGryHRFXW43jSABYhKSbeCWJIJe5OnL0qjWrlItJ8gKnOZ4y6gAS046iBYTuhcKL+XWoMmx1DJaSV9UKUqGdMwZyweZjBf2eaO3zf8oB7TZWgq33mxMqt5h6gicbOdVukKy88pSEBhdoY4Cc0PFnDTOBwmku3uLoxmI+Q4Ifhk9gPyoq2DsykblzQbWYGoQhjnV/2C8lUxiHhha2uQXjMaGbgCuU7cHE+ofhippmEx6vCc0LWlPEmqVmraz84vpHxqqN290x5/FVLLeH27Bj256LHbrixLc=
+        skinName: GoldenPaw33
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Mjc4NjI0NzUyOSwKICAicHJvZmlsZUlkIiA6ICIxYzBhYzcwZmY1ZjM0ZmNjODNjMDA5YTM3MjYxMmVhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5QYXczMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjM2YWZjNDQzMTRiOWNhYmIyOGVmZDg5YWU0YjE4MzViNTYyNjc2ZDA5MmQ0Yzg4ZmRlM2NhMWQzZmU2MjMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+      controllable:
+        enabled: false
+        owner_required: false
+      scoreboardtrait:
+        color: DARK_RED
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: warp survival
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+          '1':
+            command: Lobby
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+    traitnames: mounttrait,inventory,location,skintrait,commandtrait,controllable,type,spawned,scoreboardtrait,rotationtrait,owner,text,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '1':
+    metadata:
+      cached-skin-uuid: 1c0ac70f-f5f3-4fcc-83c0-09a372612ea6
+      cached-skin-uuid-name: goldenpaw33
+      glowing: true
+    name: '&4&lAurelyss'
+    uuid: 1e1bc025-998c-4d36-959f-9d68b260d6a0
+    traits:
+      text:
+        range: '5.0'
+        delay: -1
+        talkitem: default
+        random-talker: true
+        realistic-looking: true
+        speech-bubbles: false
+        talk-close: false
+        text:
+          '0': Hi, I'm <npc>!
+      type: PLAYER
+      spawned: true
+      controllable:
+        enabled: false
+        owner_required: false
+      location:
+        bodyYaw: -80.56587
+        world: world
+        x: '-32.1499'
+        y: '119.0'
+        z: '-33.1764'
+        yaw: '-80.5659'
+        pitch: '0.0'
+      owner:
+        uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        color: DARK_RED
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: warp survival
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+          '1':
+            command: Lobby
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ryHCfrxHRbvLK0CCBzIkZpc2eUHe6a8a/NRS3IpPK5AP/5sGHn1aOB/7X6faCEO7os951P9zjRDo7DBgjAXD+0Ox7Ou57CxvvRiKsaOj00/ZfXtYhzjj98mkUKMjyb+YuGjbmf8AbI828BqfdE4R7XXDt/ZhQbChh9Vzm0E6Gk56bKMb9UaIv4HgGosa82OqQ+hij70vkbgaZbalrbBJTq+/QqWZM0HtWVhIHiapMMRJLEHWGLbFKsoBX7h8+Qcvy/Vv54K4xvXpxcDxr5gXPEaUkmRO6xFvR+ccchlZZyXihg60kF/2ietAnenPV8ibcsWF/iBI6JRb4M7CIR2Oy/NBNAJJYt5YLB5bNfYsTpKWXZOdiQQxBzgpvTAu2b38+JwaJa2cJEjXrGryHRFXW43jSABYhKSbeCWJIJe5OnL0qjWrlItJ8gKnOZ4y6gAS046iBYTuhcKL+XWoMmx1DJaSV9UKUqGdMwZyweZjBf2eaO3zf8oB7TZWgq33mxMqt5h6gicbOdVukKy88pSEBhdoY4Cc0PFnDTOBwmku3uLoxmI+Q4Ifhk9gPyoq2DsykblzQbWYGoQhjnV/2C8lUxiHhha2uQXjMaGbgCuU7cHE+ofhippmEx6vCc0LWlPEmqVmraz84vpHxqqN290x5/FVLLeH27Bj256LHbrixLc=
+        skinName: GoldenPaw33
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Mjc4NjI0NzUyOSwKICAicHJvZmlsZUlkIiA6ICIxYzBhYzcwZmY1ZjM0ZmNjODNjMDA5YTM3MjYxMmVhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5QYXczMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjM2YWZjNDQzMTRiOWNhYmIyOGVmZDg5YWU0YjE4MzViNTYyNjc2ZDA5MmQ0Yzg4ZmRlM2NhMWQzZmU2MjMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+    traitnames: mounttrait,inventory,location,commandtrait,skintrait,controllable,type,spawned,scoreboardtrait,rotationtrait,text,owner,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
