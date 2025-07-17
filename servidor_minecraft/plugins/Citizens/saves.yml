@@ -11,12 +11,12 @@ npc:
     uuid: 7e52408b-3254-4b34-8efe-364aa531a49d
     traits:
       location:
-        bodyYaw: -79.7836
+        bodyYaw: -78.5927
         world: SpawnLobby
         x: '381.0985'
         y: '8.0'
         z: '516.9101'
-        yaw: '-79.7836'
+        yaw: '-78.5927'
         pitch: '0.0'
       owner:
         uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
@@ -90,7 +90,7 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-    traitnames: mounttrait,inventory,location,skintrait,commandtrait,controllable,type,spawned,scoreboardtrait,rotationtrait,owner,text,lookclose
+    traitnames: commandtrait,skintrait,lookclose,rotationtrait,spawned,type,controllable,inventory,owner,mounttrait,location,text,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -112,19 +112,19 @@ npc:
         speech-bubbles: false
         talk-close: false
         text:
-          '0': Hi, I'm <npc>!
+          '0': hola bienvenido mi estimado ¡Haz clic y te llevaré a tierras misteriosas!
       type: PLAYER
       spawned: true
       controllable:
         enabled: false
         owner_required: false
       location:
-        bodyYaw: -80.56587
+        bodyYaw: -7.26165
         world: world
         x: '-32.1499'
         y: '119.0'
         z: '-33.1764'
-        yaw: '-80.5659'
+        yaw: '-7.2617'
         pitch: '0.0'
       owner:
         uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
@@ -156,9 +156,9 @@ npc:
         persistSequence: false
         commands:
           '0':
-            command: warp survival
+            command: rtp
             hand: RIGHT
-            player: true
+            player: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -167,9 +167,9 @@ npc:
             cost: '-1.0'
             experienceCost: -1
           '1':
-            command: Lobby
+            command: rtp
             hand: RIGHT
-            player: true
+            player: false
             op: false
             cooldown: 0
             globalcooldown: 0
@@ -183,7 +183,7 @@ npc:
         skinName: GoldenPaw33
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Mjc4NjI0NzUyOSwKICAicHJvZmlsZUlkIiA6ICIxYzBhYzcwZmY1ZjM0ZmNjODNjMDA5YTM3MjYxMmVhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5QYXczMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjM2YWZjNDQzMTRiOWNhYmIyOGVmZDg5YWU0YjE4MzViNTYyNjc2ZDA5MmQ0Yzg4ZmRlM2NhMWQzZmU2MjMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: mounttrait,inventory,location,commandtrait,skintrait,controllable,type,spawned,scoreboardtrait,rotationtrait,text,owner,lookclose
+    traitnames: commandtrait,skintrait,lookclose,rotationtrait,spawned,type,controllable,inventory,owner,mounttrait,location,text,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
