@@ -20,6 +20,11 @@ Tablist:
   # If Enabled, NametagEdit will format the Tab menu
   # If Enabled, NametagEdit will format the Tab menu
   # If Enabled, NametagEdit will format the Tab menu
+  # If Enabled, NametagEdit will format the Tab menu
+  # If Enabled, NametagEdit will format the Tab menu
+  # If Enabled, NametagEdit will format the Tab menu
+  # If Enabled, NametagEdit will format the Tab menu
+  # If Enabled, NametagEdit will format the Tab menu
   Enabled: true
   # !! EXPERIMENTAL !!
   # This feature will use the PlayerListName to set your
