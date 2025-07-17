@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1752644468520
-  login: 1752639345340
+  logout: 1752772472606
+  login: 1752772279132
 money: '0'
 logoutlocation:
   world: 3b585df4-4b3c-4542-acbd-24e0ed0c26de
@@ -25,8 +25,8 @@ logoutlocation:
   x: 998.6999999880791
   y: 83.0
   z: -863.6999999880791
-  yaw: 108.94595336914062
-  pitch: 27.066200256347656
+  yaw: 92.58937072753906
+  pitch: 39.37248229980469
 last-account-name: NT_ZED
 homes:
   home:
