@@ -1,0 +1,27 @@
+npcs:
+  229257e2-3f33-4727-a57c-91993ed44a72:
+    name: Draelyza
+    creator: bef16be2-c60d-3fec-aee4-f866eac40c9e
+    displayName: '&4&lDraelyza'
+    type: PLAYER
+    location:
+      world: SpawnLobby
+      x: 380.5
+      y: 8.0
+      z: 517.5
+      yaw: -87.53841
+      pitch: 87.663345
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: GoldenPaw33
+      variant: AUTO
+      mirrorSkin: false

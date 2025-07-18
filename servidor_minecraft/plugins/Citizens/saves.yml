@@ -11,12 +11,12 @@ npc:
     uuid: 7e52408b-3254-4b34-8efe-364aa531a49d
     traits:
       location:
-        bodyYaw: -66.933655
+        bodyYaw: -81.36502
         world: SpawnLobby
         x: '381.0985'
         y: '8.0'
         z: '516.9101'
-        yaw: '-66.9337'
+        yaw: '-81.365'
         pitch: '0.0'
       owner:
         uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
@@ -90,7 +90,7 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-    traitnames: location,spawned,text,skintrait,rotationtrait,commandtrait,mounttrait,inventory,controllable,scoreboardtrait,lookclose,owner,type
+    traitnames: owner,controllable,scoreboardtrait,text,type,spawned,mounttrait,skintrait,location,inventory,commandtrait,lookclose,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -183,7 +183,7 @@ npc:
         skinName: GoldenPaw33
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Mjc4NjI0NzUyOSwKICAicHJvZmlsZUlkIiA6ICIxYzBhYzcwZmY1ZjM0ZmNjODNjMDA5YTM3MjYxMmVhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5QYXczMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjM2YWZjNDQzMTRiOWNhYmIyOGVmZDg5YWU0YjE4MzViNTYyNjc2ZDA5MmQ0Yzg4ZmRlM2NhMWQzZmU2MjMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: location,spawned,text,skintrait,rotationtrait,commandtrait,mounttrait,inventory,controllable,scoreboardtrait,lookclose,owner,type
+    traitnames: owner,controllable,text,scoreboardtrait,type,spawned,mounttrait,skintrait,location,inventory,commandtrait,lookclose,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -212,7 +212,7 @@ npc:
       owner:
         uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
       type: PLAYER
-    traitnames: location,spawned,scoreboardtrait,skintrait,mounttrait,owner,type,inventory
+    traitnames: mounttrait,skintrait,location,inventory,owner,scoreboardtrait,type,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
