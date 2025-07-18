@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 1
+last-created-npc-id: 2
 npc:
   '0':
     metadata:
@@ -11,12 +11,12 @@ npc:
     uuid: 7e52408b-3254-4b34-8efe-364aa531a49d
     traits:
       location:
-        bodyYaw: -78.5927
+        bodyYaw: -66.933655
         world: SpawnLobby
         x: '381.0985'
         y: '8.0'
         z: '516.9101'
-        yaw: '-78.5927'
+        yaw: '-66.9337'
         pitch: '0.0'
       owner:
         uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
@@ -90,7 +90,7 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-    traitnames: commandtrait,skintrait,lookclose,rotationtrait,spawned,type,controllable,inventory,owner,mounttrait,location,text,scoreboardtrait
+    traitnames: location,spawned,text,skintrait,rotationtrait,commandtrait,mounttrait,inventory,controllable,scoreboardtrait,lookclose,owner,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -183,7 +183,36 @@ npc:
         skinName: GoldenPaw33
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Mjc4NjI0NzUyOSwKICAicHJvZmlsZUlkIiA6ICIxYzBhYzcwZmY1ZjM0ZmNjODNjMDA5YTM3MjYxMmVhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5QYXczMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYjM2YWZjNDQzMTRiOWNhYmIyOGVmZDg5YWU0YjE4MzViNTYyNjc2ZDA5MmQ0Yzg4ZmRlM2NhMWQzZmU2MjMzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: commandtrait,skintrait,lookclose,rotationtrait,spawned,type,controllable,inventory,owner,mounttrait,location,text,scoreboardtrait
+    traitnames: location,spawned,text,skintrait,rotationtrait,commandtrait,mounttrait,inventory,controllable,scoreboardtrait,lookclose,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '2':
+    metadata:
+      cached-skin-uuid: a865229e-503a-4c2d-918f-35857d071d52
+      cached-skin-uuid-name: survival
+    name: survival
+    uuid: 6728c3ba-877b-47a3-803b-238491af1a1b
+    traits:
+      location:
+        bodyYaw: -87.38257
+        world: SpawnLobby
+        x: '380.4906'
+        y: '8.0'
+        z: '517.5493'
+        yaw: '-87.3826'
+        pitch: '75.6685'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: yfV5nR+4BCdqhysgbiHgjIlFnUwpm+6P4AFsGzTYnytMPlDWdK6CCxS2d/nrmGxQPGAFSBZAWRAdx5FzcN8Q5KJ9FrrP3HrHbPcINddH30qZ+f3jDL3v/tZZSdCH+/9MWks4uEeCmhDpwY7eP7fxku1mQ31LPhDbzw0EP3JXgzTfc5/hIxRgZtMU6hBl65xLnZv6KYCUSjMggOFfxX2+CF8/EKR3f1Q9WC85IO8+iI7JgC4Y9gRDscRFsYxzRHdwKFCiDDjfXgDRgiNEufBfQPWK0xnoUgUwcZ3LB/pQG8n+B3SvCGsWDgAb9FTi/IMgJaidv+WJ5Q8t3deyYBK1GQ4+Gp7VIQ5Jt9kd0nQaONBbUR2yZBbhIxEHK7j+4i0v5PGwNn+K6wJWBS98JbeUYkSQnn1ZS8/JNAqxR3SSOyk3BQodscc971DgljedAwL6i0Gezwbwga8SVi3sD2mZ3osr/hF4xXZq39p0rVVTWZanAmwG0ez43oufbDGMC5JGHMt2BjQ83xbBOrZui/Ut3tvQAAwOVeBlTHEx8w+Ri6UFeGygQK+z8OkT0dpbV2hXHcGUROsiXBa7UAoTz/k2UOyJxoCG/dSfu77xB5Yjo8E0u8hsMCO22ifoE3Ohj8ymaF8f1FE2QgfmpgMCd4W0qx10GGvDmEYbwpbPYpOnCkk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc1Mjc5NzM3MjE4NiwKICAicHJvZmlsZUlkIiA6ICJhODY1MjI5ZTUwM2E0YzJkOTE4ZjM1ODU3ZDA3MWQ1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdXJ2aXZhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYjQwNmJjMWNiYzVmODVjMzQzMjliZjBhMjM2MjUyMzVjNTI5ZWNiMGRmYzVlYWE5NTM5ZDQ0M2UwMGNjMDciCiAgICB9CiAgfQp9
+        updateSkins: false
+      owner:
+        uuid: bef16be2-c60d-3fec-aee4-f866eac40c9e
+      type: PLAYER
+    traitnames: location,spawned,scoreboardtrait,skintrait,mounttrait,owner,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

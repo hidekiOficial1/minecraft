@@ -1,0 +1,3 @@
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Plugin has been updated from version N/A to 2.6.0.","timestamp":1752796802468,"threadID":36,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.6.0) has been enabled.","timestamp":1752796802666,"threadID":36,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1752797779307,"threadID":36,"threadName":"Server thread","properties":{}}
