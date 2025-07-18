@@ -14,9 +14,9 @@ npcs:
     showInTab: false
     spawnEntity: true
     collidable: true
-    glowing: false
-    glowingColor: white
-    turnToPlayer: false
+    glowing: true
+    glowingColor: dark_red
+    turnToPlayer: true
     turnToPlayerDistance: -1
     interactionCooldown: 0.0
     scale: 1.0
@@ -25,3 +25,63 @@ npcs:
       identifier: GoldenPaw33
       variant: AUTO
       mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: mv tp World
+  270081d2-0884-4ef5-a4cb-65a014f0df8f:
+    name: npc_survival
+    creator: bef16be2-c60d-3fec-aee4-f866eac40c9e
+    displayName: '&e&l Desconocido'
+    type: PLAYER
+    location:
+      world: SpawnLobby
+      x: 381.5
+      y: 8.0
+      z: 520.5
+      yaw: 58.123413
+      pitch: 70.060585
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+      identifier: fade2707
+      variant: AUTO
+  1690e330-b8c6-44c5-b8f4-dce27d935dfb:
+    name: rtp
+    creator: bef16be2-c60d-3fec-aee4-f866eac40c9e
+    displayName: rtp
+    type: PLAYER
+    location:
+      world: world
+      x: -38.872877963483596
+      y: 120.0
+      z: -31.569799157682215
+      yaw: -119.63641
+      pitch: 35.98443
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: /rtp <jugador>

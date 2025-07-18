@@ -2,7 +2,13 @@
   {
     "username": "GoldenPaw33",
     "uuid": "1c0ac70f-f5f3-4fcc-83c0-09a372612ea6",
-    "lastUpdated": 1752798309807,
+    "lastUpdated": 1752804440420,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "fade2707",
+    "uuid": "300131df-90e1-449b-941e-79a58804e42c",
+    "lastUpdated": 1752804440420,
     "timeToLive": 2592000000
   }
 ]
